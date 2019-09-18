@@ -467,7 +467,7 @@ a.small-link{font-size:10px}
   position: relative;
   font: 10px/1.3 Monaco,MonoSpace;
   top: 30px;
-  left: 90px;
+  left: 70px;
 }
 
 .js-script .js{
@@ -493,7 +493,7 @@ a.small-link{font-size:10px}
 }
 
 .script {
-  left: 160px;
+  left: 120px;
   top: -90px;
   position: relative;
   font: 10px/1.3 Monaco, MonoSpace
