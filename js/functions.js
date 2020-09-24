@@ -9,6 +9,9 @@ $(document).ready(function () {
         $(".site-menu").addClass("hidden");
         $(".icon-menu-close").addClass("hidden");
     });
+
+    work();                                             // SKILL PAGE
+
 });
 
 //-----------Home Page Tilt Effect---------------
@@ -147,3 +150,12 @@ typewriter = setupTypewriter(typewriter);
 
 typewriter.type();
 
+
+function work() {
+    $('.selections div').hover(function() {
+      var $this = $(this),
+          index = $this.index();
+      $('.belt').css('margin-left', '-' + index * 455 + 'px');
+      $this.addClass('seenit');
+    });
+  }
