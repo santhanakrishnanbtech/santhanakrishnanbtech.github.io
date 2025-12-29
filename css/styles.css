@@ -192,7 +192,15 @@ h1 span{color:var(--text-secondary);font-weight:400}
     /* Common Mobile Styles */
     .page-home{position:fixed}
     .page-wrapper{margin:0}
-    .container{position:relative;width:350px;flex-direction:column;padding:40px 24px;gap:40px}
+    /* .container{position:relative;width:350px;flex-direction:column;padding:40px 24px;gap:40px} */
+    .container {
+      position: relative;
+      width: 350px;
+      flex-direction: column;
+      padding: 40px 0px;
+      margin-left: 30px;
+      gap: 40px;
+    }
     .mobile {display: block;}
     .icon-menu {z-index: 10;}
     .site-menu{height:250px}
