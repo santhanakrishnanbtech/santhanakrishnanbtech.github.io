@@ -192,7 +192,6 @@ h1 span{color:var(--text-secondary);font-weight:400}
     /* Common Mobile Styles */
     .page-home{position:fixed}
     .page-wrapper{margin:0}
-    /* .container{position:relative;width:350px;flex-direction:column;padding:40px 24px;gap:40px} */
     .container {
       position: relative;
       width: 350px;
@@ -220,12 +219,24 @@ h1 span{color:var(--text-secondary);font-weight:400}
     .status {display: none;}
     .description {position: relative;top: 125px;left: 20px;}
     .description span{font-size:15px;line-height:0}
-    .left .portfolio {position: absolute;top: 20px;right: 10px;z-index: 5;}
+    .left .portfolio {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      z-index: 5;
+    }
     .left .box-stripey{top:210px;margin-left:130px;width:200px}
-    .right{position:relative;top:-40px}
-    .right .section{padding:0 20px;margin-top:40px;margin-bottom:40px}
-    .right .pill{min-height:15px;padding:10px 10px 5px 10px;}
-    .right .portfolio{position:relative;left:70%}
+    .right {
+      position: relative;
+      top: -40px
+    }
+    .right .section{padding:0 20px;margin-top:30px;margin-bottom:30px}
+    .right .pill{min-height:15px;padding:10px 10px 5px 10px}
+    .right .portfolio {
+      position: relative;
+      left: 80%;
+      top: -10px
+    }
 
     /* Skills Page */
     .skills-page-wrapper{position:relative;width:350px;left:20px;top:80px}
