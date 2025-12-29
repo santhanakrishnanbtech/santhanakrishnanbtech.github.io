@@ -192,14 +192,7 @@ h1 span{color:var(--text-secondary);font-weight:400}
     /* Common Mobile Styles */
     .page-home{position:fixed}
     .page-wrapper{margin:0}
-    .container {
-      position: relative;
-      width: 350px;
-      flex-direction: column;
-      padding: 40px 0px;
-      margin-left: 30px;
-      gap: 40px;
-    }
+    .container{position:relative;width:350px;flex-direction:column;padding:40px 0;margin-left:30px;gap:40px}
     .mobile {display: block;}
     .icon-menu {z-index: 10;}
     .site-menu{height:250px}
@@ -219,79 +212,33 @@ h1 span{color:var(--text-secondary);font-weight:400}
     .status {display: none;}
     .description {position: relative;top: 125px;left: 20px;}
     .description span{font-size:15px;line-height:0}
-    .left .portfolio {
-      position: absolute;
-      top: 20px;
-      right: 10px;
-      z-index: 5;
-    }
+    .left .portfolio{position:absolute;top:20px;right:10px;z-index:5}
     .left .box-stripey{top:210px;margin-left:130px;width:200px}
-    .right {
-      position: relative;
-      top: -40px
-    }
+    .right{position:relative;top:-40px}
     .right .section{padding:0 20px;margin-top:30px;margin-bottom:30px}
     .right .pill{min-height:15px;padding:10px 10px 5px 10px}
-    .right .portfolio {
-      position: relative;
-      left: 80%;
-      top: -10px
-    }
+    .right .portfolio{position:relative;left:80%;top:-10px}
 
     /* Skills Page */
     .skills-page-wrapper{position:relative;width:350px;left:20px;top:80px}
     .skills-section{padding:0 5vw 100px;margin-top:-6vh}
     .skills-header{height:110px;width:350px;padding-bottom:0}
-    .skills-bg {
-      position: relative;
-      top: 40px;
-      left: 30px;
-      font-size: 60px;
-      letter-spacing: 1px;
-      opacity: .3
-    }
-    .skills-title {
-      position: relative;
-      top: -25px;
-      left: 200px;
-      font-size: 45px;
-      opacity: .8;
-      letter-spacing: 1px
-    }
+    .skills-bg{position:relative;top:40px;left:30px;font-size:60px;letter-spacing:1px;opacity:.3}
+    .skills-title{position:relative;top:-25px;left:200px;font-size:45px;opacity:.8;letter-spacing:1px}
     .skills-desc{position:relative;width:300px;text-align:justify;font-size:12px;margin-bottom:30px;line-height:1.5}
     .skills-list{display:none;flex-direction:column;gap:30px}
     .skill span.flex_head{font-size:12px}
     .skill{flex:1 1 calc(50% - 40px);text-align:left}
     .skill .bar{width:100%;max-width:300px;margin:6px auto 12px;height:2px}
     .skill span.flex_head{font-size:15px;margin-bottom:1.5em}
-    .list-container {
-      display: block;
-      width: 350px;
-      height: 500px;
-      border-radius: 8px;
-      padding: 10px;
-      overflow-y: auto;
-      overflow-x: hidden;
-      box-sizing: border-box;
-      margin-left: 30px;
-    }
-    .list-item {
-      padding: 8px 10px;
-      margin-bottom: 6px;
-      background: rgba(255, 255, 255, .15);
-      border-radius: 4px;
-      font-size: 14px;
-      color: #000;
-      width: 100%;
-      box-sizing: border-box;
-      box-shadow:0px 10px 20px rgba(0,0,0,0.12);
-    }
+    .list-container{display:block;width:350px;height:500px;border-radius:8px;padding:10px;overflow-y:auto;overflow-x:hidden;box-sizing:border-box;margin-left:30px}
+    .list-item{padding:8px 10px;margin-bottom:6px;background:rgba(255,255,255,.15);border-radius:4px;font-size:14px;color:#000;width:100%;box-sizing:border-box;box-shadow:0 10px 10px rgba(0,0,0,.12)}
     .list-container::-webkit-scrollbar{width:2px}
     .list-container::-webkit-scrollbar-thumb{background:rgba(0,0,0,.4);border-radius:4px}
 
     /* EXPERIENCE PAGE */
     .exp-page-wrapper{position:relative;width:350px;left:20px;top:10px}
-    .exp-section{padding:0;margin-top: 10px;}
+    .exp-section{padding:0;margin-top: 10px;margin-left: 30px;}
     .exp-header{height:110px;width:350px;padding-bottom:0}
     .exp-bg{position:relative;top:40px;font-size:45px;letter-spacing:1px;opacity:.3}
     .exp-title{position:relative;top:0px;font-size:35px;opacity:.8;letter-spacing:1px}
@@ -300,7 +247,7 @@ h1 span{color:var(--text-secondary);font-weight:400}
     .work-header{margin-top:10px;margin-bottom:10px;padding:0 20px;align-items:flex-start}
     .work-header h1{font-size:16px}
     .work-header .range,.work-header h1{font-size:12px}
-    .work-item{gap:0;margin:0;text-align:justify;width:300px;grid-template-columns:1fr;padding:0 20px 10px 20px;margin-left:5px;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+    .work-item{gap:0;margin:0;text-align:justify;width:300px;grid-template-columns:1fr;padding:0 20px 10px 20px;margin-left:5px;box-shadow:0 10px 30px rgba(0,0,0,.12);margin-top: -10px;}
     .work-item .year{position:relative;font-size:10px;top:23px;right:-280px}
     .work-item .details h2,.work-item .details h3{font-size:10px;margin-top:0}
     .work-header .box-decoration,.work-item .box-decoration{display:none}
@@ -319,7 +266,7 @@ h1 span{color:var(--text-secondary);font-weight:400}
     .projects-title{position:relative;top:0px;font-size:25px;opacity:.8;letter-spacing:1px}
     .projects-mobile{display:block;width:340px;height:650px;border-radius:8px;padding:10px;overflow-y:auto;overflow-x:hidden;box-sizing:border-box}
     .project-top-nav{margin-left:50px}
-    .grid{width:330px;display:flex;flex-direction:column}
+    .grid{width:330px;display:flex;flex-direction:column;margin-left: 25px;}
     .project-card{background:var(--card);border:none;box-shadow:0 10px 10px -4px rgba(0,0,0,.2);border-radius:0;overflow:hidden;transition:transform .3s ease,box-shadow .3s ease}
     .project-content p{font-size:12px;color:var(--muted);margin-bottom:0;line-height:1.6}
     .project-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;margin-bottom:20px;justify-content:center}
@@ -333,18 +280,18 @@ h1 span{color:var(--text-secondary);font-weight:400}
     .about-title{position:relative;top:-60px;font-size:55px;opacity:.8;letter-spacing:1px}
     .circle{position:relative;top:-85px;height:180px;width:180px;margin:50px auto 0;width:200px;height:200px;border-width:8px}
     .cards{position:static;width:100%;height:auto;margin:30px 0;display:flex;flex-direction:column;gap:0px;align-items:center}
-    .cards .card{position:relative;padding:0;margin:0;border-radius:2px;font-size:12px;min-width:120px;position:static;justify-content:center}
-    .cards .resume{position:relative;top:-180px;left:-90px}
-    .cards .hire{position:relative;top:-230px;left:80px}
+    .cards .card{position:relative;padding:0;margin:0;border-radius:2px;font-size:12px;min-width:120px;position:static;justify-content:center;height:40px}
+    .cards .resume{position:relative;top:-170px;left:-60px}
+    .cards .hire{position:relative;top:-212px;left:80px}
     .cards .card .text svg{display:none}
     .jump{display:none}
     .quotes{position:absolute;height:80px;top:330px;left:280px;z-index:2}
-    .about-desc .box-stripey{position:absolute;top:10px;margin-left:67px}
+    .about-desc .box-stripey{position:absolute;top:10px;margin-left:90px}
     .social-link{min-height:44px;min-width:44px;display:flex;align-items:center;justify-content:center}
     .special-link{padding:2px 4px;margin:0 2px}
     .about-section{padding:0 5vw 100px;margin-top:-6vh}
     .about-desc{position:static;width:100%;margin-top:0;text-align:left}
     .about-desc p{font-size:14px;line-height:26px}
-    .about-desc-text{position:relative;top:-230px;font-size:12px;margin:10px;left: 60px;}
+    .about-desc-text{position:relative;top:-230px;font-size:10px;margin:10px;left: 75px;}
 }
 
