@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="page-home">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SK</title>
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.PNG">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css" />
+  <style>
+  .top-nav li::before,.special-link:hover {background: var(--exp-highlighter);}
+  .icon-menu-close {background: var(--exp-highlighter);}
+  .special-link {box-shadow: 0px -3px 0px 0px var(--exp-highlighter) inset;}
+  .special-link::before {background: var(--exp-highlighter);}
+  </style>
+  
+</head>
+<body>
+  <div class="page-border-decoration"></div>
+  
+  <div class="top-nav menu-desktop hide d-show">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="skills.html">SKILLS</a></li>
+      <li class="active"><a href="experience.html">EXPERIENCE</a></li>
+      <li><a href="projects.html">PROJECTS</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+    </ul>
+  </div>
+
+  <div class="menu-mobile d-hide">
+    <div class="icon-menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: rgba(0, 0, 0, 0.87);
+            }
+            .cls-2 {
+              fill: none;
+            }
+          </style>
+        </defs>
+        <g>
+          <rect class="cls-1 menu-bar-1" width="18" height="2" transform="translate(3 6)" />
+          <rect class="cls-1 menu-bar-2" width="18" height="2" transform="translate(3 11)" />
+          <rect class="cls-1 menu-bar-3" width="12" height="2" transform="translate(3 16)" />
+          <rect class="cls-2" width="24" height="24" />
+        </g>
+      </svg>
+    </div>
+    <div class="site-menu-overlay hidden"></div>
+    <div class="icon-menu-close hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000000">
+        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+        <path d="M0 0h24v24H0z" fill="none"></path>
+      </svg>
+    </div>
+    <div class="site-menu hidden">
+      <ul>
+        <li class="menu-name-home"><a href="/" class="special-link">Home</a></li>
+        <li class="menu-name-videos"><a href="/skills.html" class="special-link">Skills</a></li>
+        <li class="menu-name-speaking"><a href="/experience.html" class="special-link">Experience</a></li>
+        <li class="menu-name-articles"><a href="/projects.html" class="special-link">Projects</a></li>
+        <li class="menu-name-podcasts"><a href="/about.html" class="special-link">About</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="page-wrapper exp-page-wrapper">
+    <section class="exp-section">
+      <div class="exp-header">
+        <h2 class="exp-bg">Professional</h2>
+        <h3 class="exp-title">Experience</h3>
+      </div>
+      <p class="skills-desc">
+        A progression of roles building and leading cloud, DevOps, and reliability platforms across product and service
+        organizations.
+      </p>
+      <header class="work-header">
+        <h1>Selected Work</h1>
+        <span class="range">2019 — 2025</span>
+        <div class="box-decoration"></div>
+      </header>
+      <!-- Item -->
+      <div class="work-item">
+        <div class="year">2023</div>
+        <div class="details">
+          <h2>Manager Cloud & Security</h2>
+          <h3>SupportLogic</h3>
+          <p>
+            Drove DevOps strategy by designing secure, scalable cloud platforms,
+            later leading DevOps, Cloud, and Security teams across the organization.
+            Customers including Crowdstrike, Commvault, Snowflake, Salesforce, ESRI, Elastic, Fourth, etc... 
+          </p>
+        </div>
+        <div class="stack">
+          <span>GCP</span>
+          <span>AWS</span>
+          <span>DevOps</span>
+          <span>Security</span>
+        </div>
+      </div>
+      <hr />
+      <!-- Item -->
+      <div class="work-item">
+        <div class="year">2022</div>
+        <div class="details">
+          <h2>Lead Cloud SRE</h2>
+          <h3>Nference</h3>
+          <p>
+            Served as Lead SRE driving reliability, automation, and cloud operations,
+            managing DevOps workflows and large-scale cloud infrastructure. Customers including Mayo clinic, Duke Health, Vanderbilt, etc...
+          </p>
+        </div>
+        <div class="stack">
+          <span>GCP</span>
+          <span>Hetzner</span>
+          <span>OVH</span>
+          <span>DevOps</span>
+        </div>
+      </div>
+      <hr />
+      <!-- Item -->
+      <div class="work-item">
+        <div class="box-decoration"></div>
+        <div class="year">2019</div>
+        <div class="details">
+          <h2>Team Lead DevOps</h2>
+          <h3>Indium Software</h3>
+          <p>
+            Delivered DevOps and cloud solutions for global clients including
+            Commonwealth Informatics, Franklin Templeton, LAM Research, Mobile22, and PVR.
+          </p>
+        </div>
+        <div class="stack">
+          <span>GCP</span>
+          <span>AWS</span>
+          <span>DevOps</span>
+        </div>
+      </div>
+      <hr />
+    </section>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/js/functions.js"></script>
+</body>
+</html>
